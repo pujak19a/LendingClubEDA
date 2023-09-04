@@ -1,5 +1,12 @@
 ### LendingClub Case study Exploratory Data Analysis
-#### Introduction
+> This Assignment is about finding the data insights from loan data from Lending Club, to apply lower the number of Charged Off loans.
+
+# Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+
+## General Information
 
 LendingClub is a financial services company headquartered in San Francisco, California. LendingClub is an online financial service that connects borrowers with loans that fit their needs. It works best for borrowers with good to excellent credit who are looking for personal loans or debt consolidation.
 
@@ -8,7 +15,7 @@ LendingClub began offering loans in 2007 as a peer-to-peer online lender and has
   
 ### Business Understanding
 
-This work for a consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to <b>make a decision for loan approval based on the applicant’s profile.</b> Two types of risks are associated with the bank’s decision:
+This work is for a consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to <b>make a decision for loan approval based on the applicant’s profile.</b> Two types of risks are associated with the bank’s decision:
 <ul>
 <li>
 If the applicant is <b>likely to repay the loan</b>, then not approving the loan results in a loss of business to the company
@@ -57,3 +64,27 @@ If one is able to identify these risky loan applicants, then such loans can be r
  
 
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
+
+
+## Conclusions
+- Maximum loans are from pupose debt consolidation followed by credit card
+- LC Grading system is working well, loans are graded in a way that there are less chances of Charged off with High Grade loans
+- There are more chances of defaulters with higher interest rate
+- Loans from small business have higher chances of Charged Off.
+- public derogatory record and public banckruptcieshistory have higher chances of charged off loans
+- percentage of charged off loans increases by Debt to Income ratio
+- States California, New York, Florida and Texas contains maximum loans
+- Number of loans increases as the month goes towards year end.
+- There is positive co-relation between loan amount and Charged Off loans
+- 
+
+## Technologies Used
+- numpy- version 1.24.3
+- pandas- version 1.5.3
+- matplotlib- version 3.7.1
+- seaborn- version 0.12.2
+
+
+
+## Contact
+Created by [@pujak19a] - feel free to contact me!
